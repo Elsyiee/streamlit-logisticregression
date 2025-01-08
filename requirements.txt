@@ -4,4 +4,3 @@ streamlit
 joblib
 scikit-learn
 pip==24.2
-pickle
