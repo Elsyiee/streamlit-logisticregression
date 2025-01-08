@@ -2,9 +2,9 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('D:/Machine Learning/UAS_AldoAdityaSaputra_2213020179/supervised/logistic_regression_model.pkl')
-scaler = joblib.load('D:/Machine Learning/UAS_AldoAdityaSaputra_2213020179/supervised/scaler.pkl')
-le = joblib.load('D:/Machine Learning/UAS_AldoAdityaSaputra_2213020179/supervised/label_encoder.pkl')
+model = joblib.load('logistic_regression_model.pkl')
+scaler = joblib.load('scaler.pkl')
+le = joblib.load('label_encoder.pkl')
 
 st.title("Prediksi Spesies Ikan")
 
