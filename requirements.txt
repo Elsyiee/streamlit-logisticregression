@@ -1,7 +1,7 @@
 pandas==2.2.3
 numpy==2.1.2
 streamlit
-joblib==1.4.2
+joblib
 scikit-learn
 pip==24.2
-pickle==3.12.1
+pickle
